@@ -2,7 +2,7 @@
 ## Orientador: Fabrício Galende Marques de Carvalho
 
 <p align=center>
-    <img src="EduK.jpg" alt="Eduardo Kuwahara" width="50%"></img>
+    <img src="mgt/EduK.jpg" alt="Eduardo Kuwahara" width="50%"></img>
 </p>
 
 - Git/Github
