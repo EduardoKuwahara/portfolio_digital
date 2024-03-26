@@ -8,3 +8,5 @@
 - Git/Github
 - HTML
 - Markdown
+
+Validação Orientador. Fabrício Galende Marques de Carvalho 2024/01
