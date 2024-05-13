@@ -8,5 +8,10 @@
 - Git/Github
 - HTML
 - Markdown
+- Flask
+- Python
+- CSS
+- Bootstrap
+
 
 Validação Orientador. Fabrício Galende Marques de Carvalho 2024/01
