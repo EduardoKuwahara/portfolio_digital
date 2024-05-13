@@ -1,0 +1,123 @@
+/* comum das paginas */
+
+.cabecalho {
+    background-color: rgb(177, 173, 173);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+}
+
+.roda {
+    text-align: center;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+/* index */
+
+}
+.capa {
+    align-items: center;
+    background-color: rgb(177, 173, 173);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 2%;
+
+}
+
+.titulo {
+    border: 2px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 6px;
+    text-align: center;
+    
+}
+
+.conteudo{
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    flex-grow: 1;
+    margin-right: 10%;
+    padding: 10px;
+
+    
+}
+
+/* projetos */
+
+.card  {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 5%;
+}
+
+.conteudoP {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+
+}
+
+.tituloP {
+    border: 2px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 7px;
+    display: inline-block;
+
+
+}
+
+.capaP {
+    align-items: center;
+    background-color: rgb(177, 173, 173);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 2%;
+
+}
+
+/* Infomações */
+
+.conteudoI {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+
+}
+
+.tituloI {
+    border: 2px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 7px;
+    display: inline-block;
+
+
+}
+
+.capaI {
+    align-items: center;
+    background-color: rgb(177, 173, 173);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 2%;
+
+
+}
