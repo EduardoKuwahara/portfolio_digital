@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="{{ url_for('static', filename='Logo.png') }}" width="13%" alt="Logo de Identidade">
+        <nav class="nav">
+            <a type="button" class="btn btn-secondary" href="/">Home</a>
+            <a type="button" class="btn btn-secondary" href="/projetos">Projetos</a>
+            <a type="button" class="btn btn-secondary" href="/informações">Informações</a>
+        </nav>
+    </header>
+    <main>
+    <section>
+        <div class="div">
+            <h1>Seja Bem-Vindo(a)!</h1>
+        </div>
+        <div class="capa">
+            <div>
+                <img src="{{ url_for('static', filename='FotoFormatura.jpeg') }}" width="80%" alt="Foto de Formatura" />
+            </div>
+            <div class="conteudo">
+                <h2>Quem sou eu:</h2>
+                <p>
+                    Olá, me chamo Eduardo Kuwahara Junior, tenho 18 anos, atualmente moro em São José dos Campos e estou
+                    cursando o 1° Semestre de DSM (Desenvolvimento de Software Multiplataforma) na Fatec São Jóse dos
+                    Campos.
+                </p>
+                <strong>
+                    Minhas redes sociais:
+                </strong>
+                <ul>
+                    <li><a href="https://github.com/EduardoKuwahara">Github</a></li>
+                    <li><a href="https://www.instagram.com/_kuwahara_/">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/eduardo-kuwahara-3b2267303/">Linkedin</a></li>
+                </ul>
+                <ul>
+                    <strong>Ensino Fundamental:</strong>
+                    <li>Emefi Professora Jacyra Vieira Baracho (2012-2020)</li>
+                    <strong>Ensino Médio:</strong>
+                    <li>E.E.E.M.I. Prof° Nelson do Nascimento Monteiro (2021-2023)</li>
+                    <strong>Graduação:</strong>
+                    <li>FATEC São José dos Campos - Prof. Jessen Vidal (2024- Até o momento)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer class="roda">
+        <p>Autoria de <a href="https://github.com/EduardoKuwahara">EduardoKuwahara</a></p>
+    </footer>
+
+</body>
+
+</html>

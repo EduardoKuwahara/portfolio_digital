@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+
+    <title>Projetos</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="{{ url_for('static', filename='Logo.png') }}" width="13%" alt="Logo de Identidade">
+        <nav class="nav">
+            <a type="button" class="btn btn-dark" href="/">Home </a>
+            <a type="button" class="btn btn-dark" href="/projetos">Projetos </a>
+            <a type="button" class="btn btn-dark" href="/informações">Informações</a>
+        </nav>
+    </header>
+    <main>
+    <section>
+        <div class="div">
+            <h1>Meus Projetos</h1>
+        </div>
+        <div class="capaP">
+            <h2 class="tituloP">Projetos Acadêmicos</h2>
+            <div class="conteudoP">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../static/I9.png" height="180px" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto Smart Farming API 1</h5>
+                        <p class="card-text">Primeiro projeto API que realizei em grupo no 1° Semestre da faculade,
+                            utilizando HTML 5, Python 3, Flask, MySQl entre outras tecnologias. Pude trabalhar com a
+                            produção de um banco de dados, estilização com CSS e integração do Flask com
+                        </p>
+                        <a href="https://github.com/CyberScrums/Projeto-Smart-Farming"
+                            class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="capaP">
+            <h2 class="tituloP">Projetos Pessoais</h2>
+            <div class="conteudoP">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../static/ImagemFeira.png" height="180px"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Nosso Espaço: Por Outras Cartografias Sociais</h5>
+                        <p class="card-text">Pesquisa apresentada na Feira de Geografia da USP no ano de 2023, referente
+                            ao estudo do
+                            Banhado, Povos Tradicionais e APP's, através de 3 segmentos: Político, Social e Ambiental. Atuei no estudo do meio
+                            Ambiental.
+                        </p>
+                        <a href="https://www.canva.com/design/DAFkfpCZ04k/f5y1mTFNMKgUxu6Qyq8_SA/edit?utm_content=DAFkfpCZ04k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                            class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../static/MODELO.png" height="180px" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Construção de um detector de radiação de baixo custo e análise com o
+                            software tracker</h5>
+                        <p class="card-text">Projeto apresentado no EnCaCi no ano de 2023, referente ao estudo e
+                            construção de um detector de radiação caseiro, com o intuito de vizualizar partículas de
+                            radiação e incentivar jovens de intituições públicas. Atuei no estudo de
+                            referências bibliográficas e experimentos práticos.
+                        </p>
+                        <a href="https://www.canva.com/design/DAFxFEYGNDU/BJzbS9b4MoDCcZ35PwdJng/edit?utm_content=DAFxFEYGNDU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                            class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer class="roda">
+        <p>Autoria de <a href="https://github.com/EduardoKuwahara">EduardoKuwahara</a></p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+
+    <title>Informações</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="{{ url_for('static', filename='Logo.png') }}" width="13%" alt="Logo de Identidade">
+        <nav class="nav">
+            <a type="button" class="btn btn-dark" href="/">Home </a>
+            <a type="button" class="btn btn-dark" href="/projetos">Projetos </a>
+            <a type="button" class="btn btn-dark" href="/informações">Informações</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="div">
+                <h1>Um pouco de mim!</h1>
+            </div>
+            <div class="capa">
+                <div>
+                    <img src="{{ url_for('static', filename='EduKSentado.jpeg') }}" width="80%"
+                        alt="Foto de Formatura" />
+                </div>
+                <div class="conteudo">
+                    <h2>Hobbies e interesses:</h2>
+                    <p>
+                        Adoro experimenatar coisas novas e por isso sempre fui muito aberto á novas vivências, acho que
+                        o
+                        importante é não ficar parado e buscar entender diferentes bolhas, por isso vou listar algumas
+                        das
+                        minhas atividades favoritas e dos meus gostos.
+                    </p>
+                    <ul>
+                        <li>Amo Biologia. <3< /li>
+                        <li>Gosto de tocar e cantar quando posso.</li>
+                        <li>Costumo frequentar exposições culturais.</li>
+                        <li>Sempre que posso vou ao teatro.</li>
+                        <li>Sou um admirador das estrelas e da Lua.</li>
+                        <li>Videogames.</li>
+                        <li>Tempo de qualidade com familiares e amigos.</li>
+                        <li>Adoro animais.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="capa">
+                <div class="conteudo">
+                    <h2>Eventos e Certificados:</h2>
+                    <p>
+                        Durante minha jornada acadêmica eu acumulei alguns Certificados e adquiri experiências
+                        inesquecíveis, algumas delas são:
+                    </p>
+                    <ul>
+                        <strong>Certificados e Congratulações:</strong>
+                        <li>Curso Básico de Programação em Python.<3 </li>
+                        <li>Scrath: Desenvolvendo Jogos Através da Programação.</li>
+                        <li>International Masterclasses: Hands on particle Physics.</li>
+                        <li>Bolsa PIBICJR Unesp</li>
+                        <li>Honra ao Mérito EnCaCi Unifesp</li>
+                        <li>Medalha de Bronze ONHB Unicamp</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="{{ url_for('static', filename='Certificado.jpeg') }}" width="90%"
+                        alt="Foto de Formatura" />
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="roda">
+        <p>Autoria de <a href="https://github.com/EduardoKuwahara">EduardoKuwahara</a></p>
+    </footer>
+
+</body>
+
+</html>
