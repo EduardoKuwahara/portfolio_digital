@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
 
-    <title>Projetos</title>
+
+    <title>Projeto</title>
 </head>
 
 <body>
     <header class="cabecalho">
-        <img src="{{ url_for('static', filename='Logo.png') }}" width="13%" alt="Logo de Identidade">
+        <img class="img-responsiva" src="{{ url_for('static', filename='Logo.png') }}" width="13%" alt="Logo de Identidade">
         <nav class="nav">
             <a type="button" class="btn btn-dark" href="/">Home </a>
             <a type="button" class="btn btn-dark" href="/projetos">Projetos </a>
@@ -24,10 +26,10 @@
     <main>
     <section>
         <div class="div">
-            <h1>Meus Projetos</h1>
+            <h1>Meus Projetos!</h1>
         </div>
         <div class="capaP">
-            <h2 class="tituloP">Projetos Acadêmicos</h2>
+            <h2 class="titulo">Projetos Acadêmicos</h2>
             <div class="conteudoP">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="../static/I9.png" height="180px" alt="Imagem de capa do card">
@@ -44,7 +46,7 @@
             </div>
         </div>
         <div class="capaP">
-            <h2 class="tituloP">Projetos Pessoais</h2>
+            <h2 class="titulo">Projetos Pessoais</h2>
             <div class="conteudoP">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="../static/ImagemFeira.png" height="180px"

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 
 
     <title>Informações</title>
@@ -14,7 +16,7 @@
 
 <body>
     <header class="cabecalho">
-        <img src="{{ url_for('static', filename='Logo.png') }}" width="13%" alt="Logo de Identidade">
+        <img class="img-responsiva" src="{{ url_for('static', filename='Logo.png') }}" width="13%" alt="Logo de Identidade">
         <nav class="nav">
             <a type="button" class="btn btn-dark" href="/">Home </a>
             <a type="button" class="btn btn-dark" href="/projetos">Projetos </a>
@@ -24,12 +26,12 @@
     <main>
         <section>
             <div class="div">
-                <h1>Um pouco de mim!</h1>
+                <h1>Um pouco sobre mim!</h1>
             </div>
             <div class="capa">
-                <div>
+                <div class="imagem">
                     <img src="{{ url_for('static', filename='EduKSentado.jpeg') }}" width="80%"
-                        alt="Foto de Formatura" />
+                        alt="Pessoa Sentada" />
                 </div>
                 <div class="conteudo">
                     <h2>Hobbies e interesses:</h2>
@@ -41,7 +43,7 @@
                         minhas atividades favoritas e dos meus gostos.
                     </p>
                     <ul>
-                        <li>Amo Biologia. <3< /li>
+                        <li>Amo Biologia.</li>
                         <li>Gosto de tocar e cantar quando posso.</li>
                         <li>Costumo frequentar exposições culturais.</li>
                         <li>Sempre que posso vou ao teatro.</li>
@@ -63,7 +65,7 @@
                     </p>
                     <ul>
                         <strong>Certificados e Congratulações:</strong>
-                        <li>Curso Básico de Programação em Python.<3 </li>
+                        <li>Curso Básico de Programação em Python.</li>
                         <li>Scrath: Desenvolvendo Jogos Através da Programação.</li>
                         <li>International Masterclasses: Hands on particle Physics.</li>
                         <li>Bolsa PIBICJR Unesp</li>
@@ -73,7 +75,7 @@
                 </div>
                 <div>
                     <img src="{{ url_for('static', filename='Certificado.jpeg') }}" width="90%"
-                        alt="Foto de Formatura" />
+                        alt="Pessoas Sorrindo" />
                 </div>
             </div>
         </section>
