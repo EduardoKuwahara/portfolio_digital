@@ -9,8 +9,9 @@ def index():
 @app.route('/projetos')
 def projetos():
     return render_template('projetos.html')
-@app.route('/informações')
+@app.route('/info')
 def informacoes():
     return render_template('informacoes.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
